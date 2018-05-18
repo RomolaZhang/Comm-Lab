@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DROWN</title>
+	<link href="https://fonts.googleapis.com/css?family=Dosis|Josefin+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/frontPage.css">
+</head>
+<body>
+    
+    <img id = "title" src = "assets/DROWN.png">
+
+    <img id = "start" onclick = "begin()" src = "assets/playbutton.png">
+
+    <img id = "skip" onclick="skipped()" src = "assets/skip.png">
+
+    <img id = "level">
+
+    <img id = "language" onclick="changeLanguage()" src = "assets/language.png">
+
+    <img id = "instruct" src = "assets/instructions.png">
+
+     <img id = "instructChinese" src = "assets/instructionschinese.png">
+
+    <img id = "tostart" onclick = "realstart()" src = "assets/clicktostart.png">
+
+    <img id = "end" src = "assets/theend.png">
+
+    <img id = "credits" src = "assets/credits.png">
+    
+    <a id = "rebutton">
+    <img id = "replay" onclick = "restart()" src = "assets/replay.png">
+    </a>
+
+    <video id = "myVideo">
+       <source src = "assets/intro.mp4" type = "video/mp4">
+   </video>
+
+   <div id = "object" onclick="clicked()"></div>
+
+</body>
+    <script type="text/javascript" src = "js/frontPage.js"></script>
+</html>
